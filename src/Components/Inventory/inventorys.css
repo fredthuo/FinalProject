@@ -1,0 +1,40 @@
+.Inventory {
+	display: flex;
+	flex-wrap: wrap;
+	display: grid;
+	grid-gap: .1rem;
+	grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+	grid-auto-rows: minmax(26vh, 190px);
+	
+}
+
+ 
+.div {		
+		flex: 1 0 auto;
+		flex-wrap: wrap;
+		height: 30vh;
+		margin: .5rem;
+		max-width: 20rem;
+		min-width: 15rem;
+	}
+
+
+
+body {
+	background: #fff;
+	color: #2c2b26;
+	font-family: Comfortaa, sans-serif;
+	font-weight: 300;
+	letter-spacing: .03rem;
+	line-height: 1;
+	margin: 1rem;	
+}
+
+a {
+	color: rgb(19, 56, 117);
+}
+	
+p {
+	font-size: 1rem;
+	line-height: 1.5;
+}
